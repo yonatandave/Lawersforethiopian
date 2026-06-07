@@ -1,3 +1,184 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>የህግ ባለሞያ ለኢትዮጵያ</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#f5f7fa;
+}
+
+header{
+background:#0b2e4a;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.profile{
+width:120px;
+height:120px;
+border-radius:50%;
+border:3px solid white;
+margin-top:10px;
+}
+
+nav{
+background:#144d73;
+padding:10px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+background:white;
+margin:15px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#0b2e4a;
+}
+
+button{
+padding:10px 15px;
+background:#144d73;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+input, select{
+padding:10px;
+width:90%;
+margin-top:10px;
+}
+
+.lang{
+position:absolute;
+top:10px;
+right:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="lang">
+<select onchange="changeLang(this.value)">
+<option value="am">አማርኛ</option>
+<option value="en">English</option>
+</select>
+</div>
+
+<h1 id="title">የህግ ባለሞያ ለኢትዮጵያ</h1>
+
+<img src="https://via.placeholder.com/120" class="profile">
+
+<p id="subtitle">Legal Knowledge • Training • Consultation</p>
+</header>
+
+<nav>
+<a href="#laws">ህጎች</a>
+<a href="#search">ፍለጋ</a>
+<a href="#training">ስልጠና</a>
+<a href="#consult">ማማከር</a>
+<a href="#cassation">ሰበር</a>
+<a href="#payment">ክፍያ</a>
+</nav>
+
+<!-- LAWS -->
+<section id="laws">
+<h2>📚 የኢትዮጵያ ህጎች</h2>
+
+<ul>
+<li>የወንጀል ህግ</li>
+<li>የንግድ ህግ</li>
+<li>የውል ህግ</li>
+<li>የሲቪል ህግ</li>
+</ul>
+
+<p>PDF, Video, Audio እና Image ማጋራት ይቻላል (Backend ሲጨመር)</p>
+</section>
+
+<!-- SEARCH -->
+<section id="search">
+<h2>🔍 የሰበር ውሳኔ ፍለጋ</h2>
+
+<input type="text" placeholder="ፋይል ቁጥር ወይም ዘርፍ">
+<br><br>
+<button onclick="alert('Search feature backend ይፈልጋል')">ፈልግ</button>
+</section>
+
+<!-- TRAINING -->
+<section id="training">
+<h2>🎓 6 ወር የህግ ስልጠና</h2>
+<p>በኦንላይን የህግ ትምህርት (Civil, Criminal, Commercial)</p>
+<button>መመዝገብ</button>
+</section>
+
+<!-- CONSULTATION -->
+<section id="consult">
+<h2>⚖️ የህግ ማማከር</h2>
+<input type="text" placeholder="ስም">
+<input type="text" placeholder="ጥያቄ">
+<button>ላክ</button>
+</section>
+
+<!-- CASSATION -->
+<section id="cassation">
+<h2>📄 የሰበር ውሳኔዎች</h2>
+<p>500 ETB በመክፈል ሙሉ ውሳኔ ማግኘት</p>
+<button>ፈልግ</button>
+</section>
+
+<!-- PAYMENT -->
+<section id="payment">
+<h2>💳 ክፍያ አማራጮች</h2>
+<ul>
+<li>CBE (Commercial Bank of Ethiopia)</li>
+<li>CBE Birr</li>
+<li>Telebirr</li>
+</ul>
+</section>
+
+<!-- SOCIAL -->
+<section>
+<h2>📢 ማህበራዊ ገፆች</h2>
+<p>Facebook | Telegram | YouTube</p>
+</section>
+
+<script>
+// Language switch (simple demo)
+function changeLang(lang){
+if(lang=="en"){
+document.getElementById("title").innerText="Legal Professional for Ethiopia";
+document.getElementById("subtitle").innerText="Law • Training • Consultation";
+}else{
+document.getElementById("title").innerText="የህግ ባለሞያ ለኢትዮጵያ";
+document.getElementById("subtitle").innerText="Legal Knowledge • Training • Consultation";
+}
+}
+</script>
+
+</body>
+</html>
 index.html<!DOCTYPE html>
 <html lang="am">
 <head>
