@@ -1,4 +1,44 @@
-tindex.html<!DOCTYPE html>
+tindex.html<!DOCTYPE html>// á‹­áˆ…áŠ•áŠ• CONFIG á‹ˆá‹° á‹Œá‰¥áˆ³á‹­á‰µá‹Ž áŠ®á‹µ á‹­á‰…á‹±
+const CONFIG = {
+  "siteTitle_am": "á‹¨áˆ…áŒ á‰£áˆˆáˆžá‹« áˆˆáŠ¢á‰µá‹®áŒµá‹«",
+  "siteTitle_en": "Lawyers for Ethiopia",
+  "siteSubtitle_am": "á‹¨áˆ…áŒ áŠ¥á‹á‰€á‰µ áˆˆáˆáˆ‰áˆ",
+  "siteSubtitle_en": "Legal Knowledge for Everyone",
+  "profileImageUrl": "Jpg",
+  "paymentBank": "1000417819437",
+  "paymentMobile": "0951727278",
+  "social": {
+    "tiktok": "https://www.tiktok.com/@lawyersforethiopia",
+    "facebook": "https://www.facebook.com/Lawyeryonatandawit",
+    "telegram": "https://t.me/LAWYERSFORETHIOPIA"
+  },
+  "rulingPrice": 500,
+  "mediaItems": [
+    {
+      "id": 1,
+      "type": "document",
+      "title": "á‹¨á‹ˆáŠ•áŒ€áˆ áˆ…áŒ á‰.1",
+      "url": "#",
+      "desc": "á‹¨áŠ¢á‰µá‹®áŒµá‹« á‹ˆáŠ•áŒ€áˆ áˆ…áŒ"
+    },
+    {
+      "id": 2,
+      "type": "video",
+      "title": "á‹¨á‹áˆ áˆ…áŒ á‰µáˆáˆ…áˆ­á‰µ",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "desc": "á‰ªá‹²á‹®"
+    }
+  ],
+  "rulings": [
+    {
+      "id": 1,
+      "category": "á‹¨á‹ˆáŠ•áŒ€áˆ áˆ…áŒ",
+      "caseNumber": "áˆ°á‰ áˆ­ 101/2012",
+      "summary": "á‹¨áˆ…á‹­á‹ˆá‰µ áŠ¥áˆµáˆ«á‰µ",
+      "fileRef": "áˆ°/áˆ°/101"
+    }
+  ]
+};
 <html lang="am">
 <head>
     <meta charset="UTF-8">
