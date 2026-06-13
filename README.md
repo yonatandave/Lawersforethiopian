@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<div class="profile-photo" id="profilePhotoBtn" style="background-image: url('profile.jpg'); background-size: cover; background-position: center;">
+    <!-- remove the <i> tag or hide it -->
+</div><!DOCTYPE html>
 <html lang="am">
 <head>
     <meta charset="UTF-8">
@@ -581,6 +583,3 @@
 </script>
 </body>
 </html>
-git add index.html profile.jpg
-git commit -m "Change profile picture"
-git push
