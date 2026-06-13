@@ -1,5 +1,10 @@
 index.html<!DOCTYPE html>
 <!DOCTYPE html>
+const CONFIG = {
+    ...
+    profileImageUrl: "profile.jpg",   // ወይም "1780847735372.jpg"
+    ...
+}
 <html lang="am">
 <head>
     <meta charset="UTF-8">
