@@ -1,4 +1,4 @@
-index.html<!DOCTYPE html>
+tindex.html<!DOCTYPE html>
 <html lang="am">
 <head>
     <meta charset="UTF-8">
